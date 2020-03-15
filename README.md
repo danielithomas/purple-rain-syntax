@@ -4,7 +4,7 @@ A theme that draws on an 80s synthpop vibe with deep purples, vibrant pinks,
 teals and greens without getting too outrageous. Based on the standard Atom UI
 Template.
 
-![A screenshot!](https://f.cloud.github.com/assets/69169/2302417/fec4d2e4-a17b-11e3-927e-b4e375d3e26c.png)
+![A screenshot!](https://github.com/danielithomas/purple-rain-syntax/blob/master/img/2020-03-15-syntax.png)
 
 ### Related UI theme:
 
