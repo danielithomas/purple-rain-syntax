@@ -1,15 +1,39 @@
 // These colors are specific to the theme. Do not use in a package!
 
-@very-light-gray: #c5c8c6;
-@light-gray: #969896;
-@gray: #373b41;
-@dark-gray: #282a2e;
-@very-dark-gray: #1d1f21;
+// Purple Rain Colour syntax
+// Text Colors
+@text-color:           hsl(180,50%,75%);
+@text-color-subtle:    hsla(154, 80%, 60%, 0.95); //hsl(0,0%,50%);
+@text-color-highlight: hsl(0,0%,94%);
+@text-color-selected:  hsl(0,0%,100%);
 
-@cyan: #8abeb7;
-@blue: #81a2be;
-@purple: #b294bb;
-@green: #b5bd68;
-@red: #cc6666;
-@orange: #de935f;
-@light-orange: #f0c674;
+// Base colors
+@base-background-color: hsla(240, 19%, 16%, 0.95);
+@base-dark-background-color:     darken(@base-background-color, 2%);
+
+// Gutter Colours
+@base-gutter-color: @base-dark-background-color;   // hsla(240, 25%, 20%, 0.95);
+
+// comment
+@comment-color: hsla(154, 60%, 50%, 0.95);
+@comment-color-darker: darken(@comment-color, 8%);
+
+
+@very-light-gray: @text-color;
+@light-gray: darken(@text-color, 1%);
+@gray: darken(@light-gray, 1%);
+//@dark-gray: #282a2e;
+//@very-dark-gray: hsla(240, 19%, 16%, 0.95);
+
+@dark-gray: @base-background-color;
+@very-dark-gray: @base-dark-background-color;
+
+//#2C2D40;   //#1d1f21;
+
+@cyan: #00FDFF;
+@blue: hsl(245,75%,75%); //#81a2be;
+@purple: hsl(268,80%,60%);  //#FF40FF; // #b294bb;
+@green: hsla(154, 80%, 60%, 0.95); // #b5bd68;
+@red: hsl(300, 60%, 65%); //#E739E7;  // #FF40FF;  //hsla(300, 75%, 100%, 0.95); //#cc6666;
+@orange: hsl(23, 94%, 65%);  //#de935f;
+@light-orange: hsl(48, 85%, 65%);  //#f0c674;
